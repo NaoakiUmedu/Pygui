@@ -1,0 +1,5 @@
+[tkinter reference]
+https://tkdocs.com/shipman/
+
+[text]
+https://www.shido.info/py/index.html
