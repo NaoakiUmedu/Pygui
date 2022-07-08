@@ -9,7 +9,7 @@ import sys
 BLUE = '#99CCFF'
 YELLOW = '#FFCC00'
 RED = '#FF00FF'
-CLOCK = 'omake\\meza-bl-2.gif'
+CLOCK = 'omake/meza-bl-2.gif'
 
 
 class TimerFrame(Tk.Frame):
