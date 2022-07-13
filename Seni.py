@@ -37,8 +37,6 @@ class App(tk.Tk):
             text="Go to Sub Page",
             command=lambda: self.changePage(self.frame1))
         self.changePageButton.pack()
-        # Set visible
-        self.changePage(self.main_frame)
 
         # ----------------------------------------------------
         # Sub frame
@@ -57,7 +55,8 @@ class App(tk.Tk):
             command=lambda: self.changePage(self.main_frame))
         self.changePageButton2.pack()
 
-        # self.main_frame.tkraise()
+        # Set main page visible
+        self.changePage(self.main_frame)
 
     def changePage(self, page: tk.Frame):
         """Change frame"""
